@@ -26,11 +26,22 @@ public class Paciente {
     @Valid
     private Endereco endereco;
 
+    private Boolean ativo;
+
     public Paciente (DadosPaciente dados){
+        this.ativo = true;
         this.nome = dados.nome();
         this.email = dados.email();
         this.telefone = dados.telefone();
         this.endereco = new Endereco(dados.endereco());
    }
 
+    public void atualizarPaciente(@Valid DadosAtualizacaoPaciente dados) {
+        this.nome = dados.nome();
+        this.telefone = dados.telefone();
+    }
+
+    public void excluir() {
+        this.ativo = false;
+    }
 }
