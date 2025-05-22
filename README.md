@@ -10,6 +10,9 @@ Durante meus estudos com Spring Boot 3, desenvolvi uma API REST do zero utilizan
 - Implementei validações robustas com Bean Validation (Jakarta)
 - Adicionei paginação e ordenação em listagens da API
 - Testei endpoints com Insomnia para validar as funcionalidades
+- Implementei boas práticas de API REST em java.
+- Realizei validações de segurança com Spring Security.
+- Autenticação utilizando Token JWT.
 
 ## Tecnologias e Ferramentas
 - Spring Boot 3
@@ -19,6 +22,8 @@ Durante meus estudos com Spring Boot 3, desenvolvi uma API REST do zero utilizan
 - Flyway
 - Spring Data JPA / Hibernate
 - Bean Validation
+- Spring Security
+- Token JWT
 - Maven
 - Insomnia
 
@@ -39,3 +44,7 @@ Durante meus estudos com Spring Boot 3, desenvolvi uma API REST do zero utilizan
 5. **Atualização e exclusão**
    - Atualização com PUT
    - Exclusão lógica com DELETE
+   
+6. **Login**
+   - Validação de login
+   - Token JWT
